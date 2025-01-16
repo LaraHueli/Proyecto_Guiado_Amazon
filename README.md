@@ -30,3 +30,9 @@ El objetivo es analizar datos relacionados con la tasa de abandono de clientes d
 - Se ajustaron formatos en columnas con datos inconsistentes.
 - Se revisaron columnas booleanas (`Yes/No`) para garantizar coherencia.
 
+#### **Paso 4: Análisis descriptivo**
+- Se comenzó con un análisis descriptivo para entender la distribución de las variables principales:
+  - **Análisis de estadísticas descriptivas:** Media, mediana, moda, desviación estándar y rangos.
+  - **Exploración de distribuciones:** Histograma de `Monthly Charges` y `Total Charges`.
+  - **Análisis de correlaciones:** Identificación de posibles relaciones entre variables numéricas.
+  - **Segmentación inicial:** Agrupación de clientes según características como `Customer Segment` y `Churn Label`.

@@ -1,0 +1,16 @@
+.DS_Store 
+# Archivos del sistema
+.DS_Store
+
+# Archivos temporales
+*.tmp
+*.log
+*.bak
+
+# Archivos de Python
+__pycache__/
+*.pyc
+
+# Archivos grandes de datos
+Data/*.csv
+Data/*.xlsx

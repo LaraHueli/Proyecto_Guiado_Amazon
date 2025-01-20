@@ -31,8 +31,29 @@ El objetivo es analizar datos relacionados con la tasa de abandono de clientes d
 - Se revisaron columnas booleanas (`Yes/No`) para garantizar coherencia.
 
 #### **Paso 4: Análisis descriptivo**
-- Se comenzó con un análisis descriptivo para entender la distribución de las variables principales:
-  - **Análisis de estadísticas descriptivas:** Media, mediana, moda, desviación estándar y rangos.
-  - **Exploración de distribuciones:** Histograma de `Monthly Charges` y `Total Charges`.
-  - **Análisis de correlaciones:** Identificación de posibles relaciones entre variables numéricas.
-  - **Segmentación inicial:** Agrupación de clientes según características como `Customer Segment` y `Churn Label`.
+- Se realizaron análisis descriptivos y visualizaciones para identificar patrones:
+  - **Group/Churn:** Distribución del churn por pertenencia a grupos.
+  - **Cluster Age/Churn:** Proporción de churn según rango de edad.
+  - **Contract Type/Payment Method/Churn:** Relación entre contratos, métodos de pago y churn.
+  - **Customers Calls/Churn:** Impacto del número de llamadas al servicio en el churn.
+  - **Number of Complaints/Churn:** Relación entre quejas y churn.
+  - **Last Transaction Date/Churn:** Tendencias temporales en el churn.
+  - **Churn Category & Reason:** Razones y categorías principales detrás del churn.
+
+#### **Paso 5: Creación de KPIs**
+- Se creó una nueva hoja llamada `KPIs` para centralizar los indicadores clave de desempeño:
+  1. **Tasa de Churn Total:** `(Clientes con Churn / Total de Clientes) * 100`.
+  2. **Churn por Grupo:** `(Clientes con Churn en un Grupo / Total de Clientes en ese Grupo) * 100`.
+  3. **Churn por Rango de Edad:** `(Clientes con Churn en un Rango de Edad / Total de Clientes en ese Rango) * 100`.
+  4. **Churn por Tipo de Contrato y Método de Pago:** `(Clientes con Churn en un Tipo o Método / Total de Clientes en ese Tipo o Método) * 100`.
+  5. **Promedio de Llamadas antes del Churn:** `(Total de Llamadas de Clientes con Churn / Total de Clientes con Churn)`.
+  6. **Tasa de Churn por Número de Quejas:** `(Clientes con Churn por Quejas / Total de Clientes por Quejas) * 100`.
+  7. **Razones de Churn más comunes:** `(Clientes por Razón / Total de Clientes con Churn)`.
+  8. **Tendencia Temporal de Churn:** `(Clientes con Churn en un Mes / Total de Clientes Activos en ese Mes) * 100`.
+
+#### **Próximos pasos**
+- Refinar los KPIs para análisis más profundo.
+- Desarrollar estrategias para reducir el churn en las categorías con mayores tasas.
+- Crear un dashboard interactivo para visualizar los resultados de forma dinámica.
+
+

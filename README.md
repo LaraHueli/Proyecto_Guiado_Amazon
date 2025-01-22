@@ -1,3 +1,7 @@
+<div style="text-align: center;">
+    <img src="Img/logo.jpg" alt="Logo del Proyecto" width="150">
+</div>
+
 ## Proyecto Guiado Amazon
 
 Este proyecto está elaborado en clase y guiado por los profesores.
@@ -60,6 +64,11 @@ El objetivo es analizar datos relacionados con la tasa de abandono de clientes d
   4. **Análisis de Llamadas y Churn:** Relación entre el número de llamadas al servicio y el churn.
   5. **Métodos de Pago y Contratos:** Comparativa del churn según métodos de pago y tipo de contrato.
   6. **Tendencia Temporal:** Evolución del churn a lo largo del tiempo.
+
+<div style="text-align: center;">
+    <img src="Img/dashboard.png" alt="Imagen del Dashboard" width="600">
+</div>
+
 - **Conclusiones del Dashboard:**
   - El dashboard confirma que los contratos de largo plazo (un año o más) tienen tasas de churn significativamente menores.
   - Las llamadas al servicio están relacionadas con un mayor churn, lo que indica posibles problemas en la experiencia del cliente.
